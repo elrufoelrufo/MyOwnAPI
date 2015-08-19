@@ -1,0 +1,294 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"json_de",
+				"json_decoded"
+			],
+			[
+				"emisoras",
+				"emisoraslist"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 67.0,
+		"last_filter": "install",
+		"selected_items":
+		[
+			[
+				"install",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 449.0
+	},
+	"console":
+	{
+		"height": 126.0,
+		"history":
+		[
+			"import urllib.request,os,hashlib; h = 'eb2297e1a458f27d836c04bb0cbaf282' + 'd0e7a3098092775ccb37ca9d6b2e4b7d'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/Applications/XAMPP/xamppfiles/htdocs/MyOwnAPI"
+	],
+	"file_history":
+	[
+		"/Applications/XAMPP/xamppfiles/htdocs/MyOwnAPI/public/index.php",
+		"/Users/josecarlosruanoblanco/Downloads/curso laravel-PHP/Section 1 - Preparing the local tools/7- Linux.txt",
+		"/Applications/XAMPP/xamppfiles/htdocs/MyOwnAPI/public/index.html",
+		"/private/etc/hosts",
+		"/private/etc/apache2/extra/httpd-vhosts.conf",
+		"/Users/josecarlosruanoblanco/Library/Caches/TemporaryItems/BetterZip Temporary Folder.pZ2qGC/BetterZip Temporary Folder.enKhKV/I_Wish/I_Wish/Web Service Php/insertar_meta.php",
+		"/Users/josecarlosruanoblanco/Library/Caches/TemporaryItems/BetterZip Temporary Folder.pZ2qGC/BetterZip Temporary Folder.enKhKV/I_Wish/I_Wish/Web Service Php/obtener_meta_por_id.php",
+		"/Users/josecarlosruanoblanco/Library/Caches/TemporaryItems/BetterZip Temporary Folder.pZ2qGC/BetterZip Temporary Folder.enKhKV/I_Wish/I_Wish/Web Service Php/obtener_metas.php",
+		"/Users/josecarlosruanoblanco/Library/Caches/TemporaryItems/BetterZip Temporary Folder.pZ2qGC/BetterZip Temporary Folder.enKhKV/I_Wish/I_Wish/Web Service Php/Meta.php",
+		"/Users/josecarlosruanoblanco/Library/Caches/TemporaryItems/BetterZip Temporary Folder.pZ2qGC/BetterZip Temporary Folder.enKhKV/I_Wish/I_Wish/Web Service Php/Database.php",
+		"/Users/josecarlosruanoblanco/Library/Caches/TemporaryItems/BetterZip Temporary Folder.pZ2qGC/BetterZip Temporary Folder.enKhKV/I_Wish/I_Wish/Web Service Php/mysql_login.php",
+		"/Users/josecarlosruanoblanco/Documents/APPANDROID_version_2.0/CadenaCope_1.0/gradle/wrapper/gradle-wrapper.properties",
+		"/Users/josecarlosruanoblanco/Documents/APPANDROID_version_2.0/CadenaSerNoOficial_2.3/build.gradle",
+		"/Users/josecarlosruanoblanco/Documents/APPANDROID_version_2.0/RadioMarca_1.0/build.gradle",
+		"/Users/josecarlosruanoblanco/Documents/APPANDROID_version_2.0/CadenaSerNoOficial_2.2_copia_da problemas/build.gradle",
+		"/Users/josecarlosruanoblanco/Documents/APPANDROID_version_2.0/CadenaSerNoOficial_2.2_copia_da problemas/gradle/wrapper/gradle-wrapper.properties",
+		"/Users/josecarlosruanoblanco/Documents/APPANDROID_version_2.0/CadenaSerNoOficial_2.2/build.gradle",
+		"/Users/josecarlosruanoblanco/Documents/NDK ANDROID/turorial",
+		"/Users/josecarlosruanoblanco/Desktop/prueba.sql",
+		"/Users/josecarlosruanoblanco/Desktop/prueba_caracol.sql",
+		"/Users/josecarlosruanoblanco/Documents/Backend/getmp3dur.php",
+		"/Users/josecarlosruanoblanco/Documents/Backend/mp3file.class.php",
+		"/Users/josecarlosruanoblanco/Documents/Backend/pruebita.php",
+		"/Users/josecarlosruanoblanco/Documents/Valoraciones/N.º de valoraciones",
+		"/Users/josecarlosruanoblanco/Documents/APP ANDROID_version_2.0/RadioMarca_1.0/AndroidManifest.xml",
+		"/private/var/folders/_v/9j2xfnss5m53n185r122_c_80000gn/T/fz3temp-1/default",
+		"/private/var/folders/_v/9j2xfnss5m53n185r122_c_80000gn/T/fz3temp-1/security",
+		"/private/var/folders/_v/9j2xfnss5m53n185r122_c_80000gn/T/fz3temp-1/caracol.conf",
+		"/private/var/folders/_v/9j2xfnss5m53n185r122_c_80000gn/T/fz3temp-1/apache2.conf",
+		"/Users/josecarlosruanoblanco/Desktop/DB_Connect.php",
+		"/private/var/folders/_v/9j2xfnss5m53n185r122_c_80000gn/T/fz3temp-1/envvars",
+		"/private/var/folders/_v/9j2xfnss5m53n185r122_c_80000gn/T/fz3temp-1/other-vhosts-access-log",
+		"/Users/josecarlosruanoblanco/Desktop/caracol_emisoras.php",
+		"/Users/josecarlosruanoblanco/Documents/Backend/pepe.phpl.html",
+		"/private/var/folders/_v/9j2xfnss5m53n185r122_c_80000gn/T/fz3temp-1/DB_Connect 2.php",
+		"/Users/josecarlosruanoblanco/Downloads/ccam2106.cfg",
+		"/Users/josecarlosruanoblanco/Downloads/CCCAMs.cfg",
+		"/Users/josecarlosruanoblanco/Library/Caches/TemporaryItems/BetterZip Temporary Folder.2XwaWO/BetterZip Temporary Folder.TZDgsp/CCcam Server 05.06.2015.txt",
+		"/Users/josecarlosruanoblanco/Library/Caches/TemporaryItems/BetterZip Temporary Folder.yMRdYj/BetterZip Temporary Folder.vyMmI7/cccam.cfg",
+		"/Users/josecarlosruanoblanco/Documents/deco engel/http:::192.168.1.xx:1988:6:2:00 --> canal plus",
+		"/Users/josecarlosruanoblanco/Documents/Valoraciones/URLs Radio Marca",
+		"/Users/josecarlosruanoblanco/Downloads/2015_02_22_001620.pcap",
+		"/Users/josecarlosruanoblanco/Documents/Valoraciones/comandos ADB",
+		"/Users/josecarlosruanoblanco/Documents/radio Marca/sql BBDD marca/inserts_emisoraslocales_marca.sql",
+		"/Users/josecarlosruanoblanco/Documents/radio Marca/APKs/manifest-merger-release-report.txt",
+		"/Users/josecarlosruanoblanco/Documents/radio Marca/sql BBDD marca/inserts_programas_marca.sql",
+		"/Users/josecarlosruanoblanco/Documents/radio Marca/sql BBDD marca/inserts_emisora_marca.sql",
+		"/Users/josecarlosruanoblanco/Documents/Backend/radiomarca/marca_emisoras.php",
+		"/Users/josecarlosruanoblanco/Documents/Backend/radiomarca/marca_programas.php",
+		"/Users/josecarlosruanoblanco/Documents/Backend/radiomarca/include/DB_Functions.php",
+		"/Users/josecarlosruanoblanco/Documents/Backend/radiomarca/include/DB_Connect.php",
+		"/Users/josecarlosruanoblanco/Documents/sql BBDD marca/inserts_emisora_marca.sql",
+		"/Users/josecarlosruanoblanco/Documents/untitled folder/N.º de valoraciones",
+		"/Users/josecarlosruanoblanco/Downloads/0_8i9p0yhe_1.bootstrap",
+		"/Users/josecarlosruanoblanco/Documents/Backend/busquedas_complejas_sublime.txt",
+		"/Users/josecarlosruanoblanco/Documents/Backend/caracol_radioapp/php/include/DB_Connect.php",
+		"/Users/josecarlosruanoblanco/Documents/Backend/php/include/DB_Functions.php",
+		"/Users/josecarlosruanoblanco/Documents/Backend/php/caracol_emisoras.php",
+		"/Users/josecarlosruanoblanco/Documents/Backend/php/caracol_programas.php",
+		"/Users/josecarlosruanoblanco/Documents/Backend/php/include/DB_Connect.php",
+		"/Users/josecarlosruanoblanco/Documents/Backend/creación_radioapps.sql",
+		"/private/var/folders/_v/9j2xfnss5m53n185r122_c_80000gn/T/fz3temp-1/DB_Functions.php",
+		"/private/var/folders/_v/9j2xfnss5m53n185r122_c_80000gn/T/fz3temp-1/caracol.php",
+		"/private/var/folders/_v/9j2xfnss5m53n185r122_c_80000gn/T/fz3temp-1/DB_Connect.php",
+		"/Users/josecarlosruanoblanco/Documents/workspace_importante/CadenaSerNoOficial_2.1_subida a store/res/layout/main_fragment.xml",
+		"/Users/josecarlosruanoblanco/Documents/workspace_importante/CadenaSerNoOficial_2.1_subida a store/AndroidManifest.xml",
+		"/Users/josecarlosruanoblanco/Downloads/codeguy-Slim-04958a1/README.markdown",
+		"/Users/josecarlosruanoblanco/Downloads/res/values/colors_switch_sleep.xml",
+		"/Users/josecarlosruanoblanco/Downloads/res/values-v11/themes_switch_sleep.xml",
+		"/Users/josecarlosruanoblanco/Downloads/res/drawable/switch_sleep_switch_inner_holo_light.xml",
+		"/Users/josecarlosruanoblanco/Downloads/res/values/themes_switch_sleep.xml",
+		"/Users/josecarlosruanoblanco/Documents/workspace_importante/CadenaSerNoOficial_2.1_subida a store/src/es/elrufo/cadenaser/podcast/Programas.java",
+		"/Users/josecarlosruanoblanco/Downloads/res/values/colors_apptheme.xml",
+		"/Users/josecarlosruanoblanco/Downloads/res/values/themes_apptheme.xml",
+		"/Applications/Android Studio.app/Contents/plugins/android/lib/device-art-resources/device-art.xml",
+		"/Applications/Android Studio.app/Contents/plugins/android/lib/device-art-resources/nexus_5/layout",
+		"/Users/josecarlosruanoblanco/Documents/workspace_importante/CadenaSerNoOficial_2.1_subida a store/res/values/styles.xml"
+	],
+	"find":
+	{
+		"height": 23.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"runtime",
+			"indexes",
+			"AllowOverride",
+			"index",
+			"indexes",
+			"programs.get([(])*([0-9])*([0-9])*([)]).add([(])",
+			"programs.get([(])*([0-9])*([)]).add([(])",
+			"programs.get([(])([0-9])([)]).add([(])",
+			"programs.get([(])([0-9])*([)]).add([(])",
+			"programs.get([(])([0-9])*([)]).add([(]",
+			"programs.get([(])([0-9])*([)]).add",
+			"programs.get(([(])([0-9])*([)]).add",
+			"programs.get([(])([0-9])*([)]).add",
+			"([0-9])+add",
+			"([0-9])).add(",
+			"programs.get(([0-9])).add(",
+			"programs.get(1).add(",
+			"programs.get([a-z]).add(",
+			"programs.get([1-9]).add(",
+			"programs.get().add(",
+			"programs.get([ ]).add(",
+			"success",
+			"demos_result"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": true,
+		"replace_history":
+		[
+			"programasList.get($2).put(TAG_URL,",
+			"programasList.get($2$3).put(TAG_URL,",
+			"programasList.get($2+$3).put(TAG_URL,",
+			"programasList.get($2*$3).put(TAG_URL,",
+			"programasList.get($2$3).put(TAG_URL,",
+			"programasList.get($2).put(TAG_URL,",
+			"programasList.get($2 ).put(TAG_URL,",
+			"programasList.get($2$3).put(TAG_URL,",
+			"programasList.get($1$2).put(TAG_URL,",
+			"programasList.get($2).put(TAG_URL,",
+			"programasList.get($2).put",
+			"programasList.get($1).put(",
+			"json_result"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 23.0
+	},
+	"input":
+	{
+		"height": 31.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "MyOwnAPI.sublime-project",
+	"replace":
+	{
+		"height": 42.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 150.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
