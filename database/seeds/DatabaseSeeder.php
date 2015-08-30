@@ -5,6 +5,7 @@ use Illuminate\Database\Eloquent\Model;
 
 //Para el truncado
 use App\Maker;
+use App\User;
 
 class DatabaseSeeder extends Seeder
 {
@@ -21,11 +22,12 @@ class DatabaseSeeder extends Seeder
 
         //Para truncar todos los datos
         Maker::truncate();
-
+        User::truncate();
         Model::unguard();
 
         $this->call('MakerSeed');
         $this->call('VehiclesSeed');
+        $this->call('UsersSeed');
         Model::reguard();
     }
 }
