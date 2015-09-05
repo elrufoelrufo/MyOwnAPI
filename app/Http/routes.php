@@ -31,3 +31,7 @@ Route::resource('makers.vehicles' , 'MakerVehiclesController' , ['except' => ['c
 
 
 });
+
+Route::post('oauth/access_token', function() {
+    return Response::json(Authorizer::issueAccessToken());
+});

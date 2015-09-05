@@ -3,6 +3,8 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
+use Illuminate\Support\Facades\Cache;
+use Illuminate\Database\Eloquent\Collection;
 
 use App\Http\Requests;
 use App\Http\Controllers\Controller;
@@ -19,7 +21,7 @@ class MakerController extends Controller
 
     public function __construct(){
 
-        $this->middleware('auth.basic.once');
+        $this->middleware('oauth', ['except' => ['index', 'show']]);
     }
 
 
@@ -28,12 +30,27 @@ class MakerController extends Controller
      *
      * @return Response
      */
-    public function index()
+    public function index(Request $request)
     {
-        //
-        $makers= Maker::all();
+        //Incluye caché y paginación por si es necesario implementarlo
+        $page=1;
 
-        return response()->json(['data' => $makers], 200);
+        if($request->get('page')){
+
+            $page = $request->get('page');
+        }
+
+
+
+        $makers= Cache::remember("makers$page" , 15/60 , function()
+            {
+
+                return Maker::simplePaginate(10);
+            }
+
+            );
+
+        return response()->json(['next'=> $makers->nextPageUrl(), 'previous'=> $makers->previousPageUrl(), 'data' => $makers->items()], 200);
     }
 
 
